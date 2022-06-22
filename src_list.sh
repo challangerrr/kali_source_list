@@ -3,4 +3,8 @@ echo ' # See https://www.kali.org/docs/general-use/kali-linux-sources-list-repos
 
 cat /etc/apt/source.list
 
+pip install speedtest-cli
+
 apt update
+
+speedtest-cli --bytes
